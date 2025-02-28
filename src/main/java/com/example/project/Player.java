@@ -10,8 +10,11 @@ public class Player{
     String[] ranks = Utility.getRanks();
     
     public Player(){
-        hand = new ArrayList<>();
-        Card pop = 
+        Deck decks = new Deck();
+        hand = new ArrayList<Card>();
+        hand.add(decks.drawCard());
+        hand.add(decks.drawCard());
+
     }
         
         
