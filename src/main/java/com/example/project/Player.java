@@ -1,4 +1,5 @@
 package com.example.project;
+
 import java.util.ArrayList;
 
 
@@ -10,8 +11,10 @@ public class Player{
     
     public Player(){
         hand = new ArrayList<>();
+        Card pop = 
     }
-
+        
+        
     public ArrayList<Card> getHand(){return hand;}
     public ArrayList<Card> getAllCards(){return allCards;}
 
