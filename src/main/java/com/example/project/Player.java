@@ -119,6 +119,7 @@ public class Player{
     }
     }
 
+<<<<<<< HEAD
     public void sortAllCards(){
         Card place;
         for(int i=0; i<hand.size();i++){
@@ -138,6 +139,9 @@ public class Player{
             }
         }
     } 
+=======
+    public void sortAllCards(){} 
+>>>>>>> cc680aeaf2632ef74e6e22726e31cbd58dccdef7
 
     public ArrayList<Integer> findRankingFrequency(){
     ArrayList<Integer> freq= new ArrayList<>();        
